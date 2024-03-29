@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/github.com/fitmariusz/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/github.com/fitmariusz/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.js": "/github.com/fitmariusz/goit-react-hw-01-components/static/js/main.cf632b81.js",
     "index.html": "/github.com/fitmariusz/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/github.com/fitmariusz/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/github.com/fitmariusz/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.cf632b81.js.map": "/github.com/fitmariusz/goit-react-hw-01-components/static/js/main.cf632b81.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.cf632b81.js"
   ]
 }
