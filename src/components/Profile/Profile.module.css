@@ -1,0 +1,79 @@
+.profile {
+    margin: 20px auto;
+    padding: 25px;
+    width: 250px;
+    /* box-shadow: 0px 0px 15px 20px rgba(219,9,9,0.75); */
+    box-shadow: 6px 6px 17px 0px rgba(10, 46, 207, 0.75);
+    background: grey;
+    border-radius: 150px 150px 5px 5px;
+    
+}
+
+.description {
+    text-align: center;
+
+}
+
+.avatar {
+    width: 250px;
+    height: auto;
+    margin: 0 auto 5px;
+    border-radius: 100px;
+    border: 1px;
+    padding: 3px;
+    background-color: aliceblue;
+    box-shadow: inset -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    font-style: italicbold;
+    text-shadow: 7px 5px 9px rgba(37, 51, 202, 1);
+}
+
+.tag {
+    color: #e4cf59;
+    text-shadow: 7px 5px 9px rgba(37, 51, 202, 1);
+}
+.location{
+    color: blue;
+    text-shadow: 7px 5px 9px rgba(37, 51, 202, 1);
+}
+
+.stats {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.stats li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(23, 110, 110);
+    border-radius: 20px;
+    padding:20px;
+    /* box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75); */
+    box-shadow: 6px 6px 17px 0px rgba(10, 46, 207, 0.75);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    border: #aaaaaa solid 1px;
+    box-shadow: inset -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.label {
+    font-weight: 500;
+}
