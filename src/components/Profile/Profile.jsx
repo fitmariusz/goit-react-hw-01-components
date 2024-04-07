@@ -1,4 +1,3 @@
-// import ReactDOM from "react-dom/client";
 import PropTypes from 'prop-types';
 
 export const Profile = ({username, tag, location, avatar, stats }) => {

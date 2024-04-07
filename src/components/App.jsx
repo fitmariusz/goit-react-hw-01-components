@@ -1,23 +1,23 @@
 import { Profile } from "./Profile/Profile";
-// import friends from 'path/to/friends.json';
+import friends from './FriendList/friends.json';
+import { FriendList } from "./FriendList/Friends";
 import user from "./Profile/user.json"
+import { Statistics } from "./Statistics/Statistics";
+import data from "./Statistics/data.json"
 
 export const App = () => {
   return (
-
-    <Profile
+    <>
+     <Profile 
       username={user.username}
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
-      stats={user.stats}
-      ></Profile>
+      stats={user.stats}></Profile>
+      
+    <Statistics status={data}></Statistics>
 
-
-    // <FriendList friends={friends}></FriendList>
-  );
+    <FriendList friends={friends}></FriendList>
+  </>)
 };
 
-
-  // username={user.username}
-  
