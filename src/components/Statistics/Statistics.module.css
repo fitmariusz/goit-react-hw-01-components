@@ -1,0 +1,28 @@
+.statistics{
+    margin: auto;
+    width: 350px;
+    border-style:double;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.title{
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.startList{
+     display: flex;
+     -ms-flex-align: ;
+     /* flex-direction: row; */
+}
+
+.item{
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 70px;
+        align-items: center;
+
+}
