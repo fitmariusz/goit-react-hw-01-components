@@ -1,4 +1,5 @@
 .statistics{
+    display: block;
     margin: auto;
     width: 350px;
     border-style:double;
@@ -9,13 +10,14 @@
 .title{
     text-align: center;
     margin-top: 0;
-
 }
 
 .startList{
-     display: flex;
-     padding-left:-20px ;
-    justify-items: space-around;
+    margin: auto;
+     list-style: none;
+    display: flex;
+        padding-left: -20px;
+        justify-items: space-around;
 }
 
 .items{
@@ -24,5 +26,7 @@
         text-align: center;
         width: 70px;
         align-items: center;
+        border-style:groove;
+        border-width: 5px;
 
 }

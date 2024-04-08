@@ -9,7 +9,7 @@ export const Statistics = ({title, status }) => {
     return (<>
         <section className={css.statistics}>
             <h2 className={css.title}>{ title}</h2>
-            <ul className={css.startList}>
+            <div className={css.startList}>
             {status.map(item => (
                 <li className={css.items}
                     key={item.id}
@@ -20,7 +20,7 @@ export const Statistics = ({title, status }) => {
                 ))}
             
                 
-            </ul>
+            </div>
         </section>
     </>)
 };
