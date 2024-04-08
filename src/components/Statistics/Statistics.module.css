@@ -14,11 +14,11 @@
 
 .startList{
      display: flex;
-     -ms-flex-align: ;
-     /* flex-direction: row; */
+     padding-left:-20px ;
+    justify-items: space-around;
 }
 
-.item{
+.items{
     display: flex;
         flex-direction: column;
         text-align: center;

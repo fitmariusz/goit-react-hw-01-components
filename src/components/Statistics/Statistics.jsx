@@ -11,7 +11,7 @@ export const Statistics = ({title, status }) => {
             <h2 className={css.title}>{ title}</h2>
             <ul className={css.startList}>
             {status.map(item => (
-                <li className={css.item}
+                <li className={css.items}
                     key={item.id}
                     style={{ backgroundColor: generateRandomColor() }} >
                     <span className="label">{item.label}</span>
